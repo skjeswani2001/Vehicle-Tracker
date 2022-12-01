@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#log-btn {
+  border: #333;
+  border-radius: 5px;
+  border-width: 1px;
+  position: absolute;
+  background-color: #eaeaea;
+  padding: 10px;
+  padding-right: -2px;
+  padding-left: -2px;
+  top: 2%;
+  right: 5%;
+  font-family: "Calibri";
+  font-weight: 800;
+  font-size: 20px;
+  color: #333;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#welcome {
+  margin: 10vh;
+  background-color: #eaeaea;
+  border: 1px solid #ececec;
+  height: 80vh;
+  border-radius: 10px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78060/istock-car.jpg");
+  background-repeat: no-repeat;
+  background-size: 45vw;
+  background-position: 100% 50%;
+  position: relative;
+  box-shadow: 0 5px 20px;
+}
+
+.flex-container h1 {
+  background-color: #ececec;
+  font-family: "futura-pt";
+  position: absolute;
+  font-weight: 800;
+  font-size: 5vw;
+  width: 40%;
+  margin: 0;
+  line-height: 1;
+  top: 50%;
+  color: #333;
+  left: 5%;
+  transform: translate(0, -55%);
+}
+
+#headline {
+  font-family: "futura-pt";
+  font-weight: 800;
+  font-size: 2vw;
+  color: #333;
+  margin: -25px;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  transform: translate(0, -25%);
+}
+
+#topline {
+  font-family: "futura-pt";
+  font-weight: 600;
+  font-size: 2vw;
+  color: #333;
+  margin: -25px;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 46%;
+  transform: translate(0, -25%);
+}

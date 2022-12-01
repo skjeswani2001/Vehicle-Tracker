@@ -1,0 +1,55 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#detail-1 {
+  font-family: "futura-pt";
+  font-weight: 500;
+  font-size: 2vw;
+  color: #333;
+  margin: -30px;
+  padding: 10px;
+  position: absolute;
+  top: 110%;
+  left: 10%;
+  transform: translate(0, -25%);
+}
+
+#detail-2 {
+  font-family: "futura-pt";
+  font-weight: 600;
+  font-size: 2vw;
+  color: #333;
+  position: absolute;
+  /* margin: -70px; */
+  top: 115%;
+  left: 25%;
+}
+
+#detail-3 {
+  font-family: "futura-pt";
+  font-weight: 600;
+  font-size: 2vw;
+  color: #333;
+  position: absolute;
+  /* margin: -70px; */
+  top: 115%;
+  left: 35%;
+}
+
+#detail-4 {
+  font-family: "futura-pt";
+  font-weight: 600;
+  font-size: 2vw;
+  color: #333;
+  position: absolute;
+  /* margin: -70px; */
+  /* margin-left: 10px; */
+  top: 115%;
+  left: 50%;
+}
+
+.details {
+  margin-left: 10px;
+}
